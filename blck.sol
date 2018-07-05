@@ -353,7 +353,7 @@ contract MintableToken is StandardToken, Ownable {
 
 contract Token is StandardToken, DetailedERC20, Destructible, MintableToken, BurnableToken {
 
-    function Token_Mintable_Burnable(string _name, string _symbol, uint8 _decimals, uint256 _totalSupply)
+    function Token(string _name, string _symbol, uint8 _decimals, uint256 _totalSupply)
         DetailedERC20(_name, _symbol, _decimals) public {
         totalSupply_ = _totalSupply;
 
