@@ -14,7 +14,7 @@ Token deployment hash: https://etherscan.io/tx/0x12cb3f72f33b2d906a321ded4d54ac9
 
 The token is both burnable and mintable by the owner wallet (Ask Peep for the private key, it's in 1pass). Minting can be disabled, but that can not be undone.
 
-Interacting with the token is eased by "Remix" - and online tool for interacting with Ethereum networks. It can be accessed [here][remix]. [Metamask][metamask] (or any web3 injected) can be used to broadcast the transactions.
+Interacting with the token is eased by "[Remix][remix]" - and online tool for interacting with Ethereum networks. [Metamask][metamask] (or any web3 injected) can be used to broadcast the transactions.
 
 ## Remix instructions
 First copy the source code (blck.sol) into the editor on the left. Should compile okey (few warning may pop up).
